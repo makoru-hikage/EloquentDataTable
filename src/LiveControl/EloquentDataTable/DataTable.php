@@ -145,7 +145,7 @@ class DataTable
 
         $result = [];
         foreach ($this->columnNames as $column) {
-            $result[] = $data[$column];
+            $result[$column] = $data[$column];
         }
         $data = $result;
 
